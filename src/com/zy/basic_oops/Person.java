@@ -23,7 +23,10 @@ public class Person {
 
     }
 
-    Person(String name, int age, double herght) {
+    Person(String name, int age, double height) {
+        this.age = age ;
+        this.name = name ;
+        this.height = height ;
 
 
     }

@@ -7,7 +7,10 @@ public class Entrance {
         zhouyue.age = 28 ;
         zhouyue.height = 170 ;
 
-        System.out.println(zhouyue.name + " is now " + zhouyue.age + " years old.");
+        Person zhouyue1 = new Person("zhouyue1young" , 18 , 160) ;
+
+        System.out.println(zhouyue.name + " is now " + zhouyue.age + " years old.") ;
+        System.out.println(zhouyue1.name + " is now " + zhouyue1.age + " years old.") ;
 
     }
 }
