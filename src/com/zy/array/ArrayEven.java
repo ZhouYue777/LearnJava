@@ -16,7 +16,7 @@ public class ArrayEven {
     }
 
     public static void main(String[] args){
-        ArrayEven first = new ArrayEven(999);
+        ArrayEven first = new ArrayEven(1998);
     }
 }
 
