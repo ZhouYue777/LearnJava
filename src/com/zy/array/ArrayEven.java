@@ -5,7 +5,7 @@ public class ArrayEven {
 
     ArrayEven(int maxnum) {
         int[] evens = new int[maxnum/2];
-        for (int i = 0; i < maxnum/2 ; i++) {
+        for (int i = 0; i < evens.length ; i++) {
             evens[i] = 2 * (i + 1);
         }
 
