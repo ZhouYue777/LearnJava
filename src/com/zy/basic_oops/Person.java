@@ -28,6 +28,24 @@ public class Person {
 
     }
 
+    //设计一个人类画星星的需求  行数  列数
+    public void drawStar(int row, String direction) {
+        for (int i = 1; i <= row ; i++) {
+            if (direction == "left") {
+                for (int j = 1; j <= row - i; j++) {
+                    System.out.print(" ");
+                }
+            }
+            for (int j = 1; j <= i ; j++) {
+                System.out.print("$");
+            }
+            System.out.println();
+
+
+        }
+    }
+
+
     // 构造方法
     Person(){
 
