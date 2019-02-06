@@ -12,7 +12,7 @@ public class ArrayOdd {
     }
 
     public static void main(String[] args) {
-        ArrayOdd test = new ArrayOdd(999);
+        ArrayOdd test = new ArrayOdd(1999);
     }
 }
 
