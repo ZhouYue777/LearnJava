@@ -8,7 +8,6 @@ public class BubbleSort {
         this.arrayBefore = arrayBefore;
     }
 
-
     public int[] down(){
         for (int j = 1; j < arrayBefore.length - 1 ; j++ ) {
             for (int i = 0; i < arrayBefore.length - j ; i++) {
