@@ -10,6 +10,12 @@ import java.sql.SQLOutput;
 // 复制一个a 为C  取b值赋给a   取C值赋给B
 // 以int[]组为例
 public class ArrayExchange {
+    /**
+     *
+     * @param arrayA
+     * @param arrayB
+     */
+
     ArrayExchange(int[] arrayA,int[] arrayB) {
         int[] arrayC = new int[arrayA.length];
         for (int i = 0; i < arrayA.length; i++) {
